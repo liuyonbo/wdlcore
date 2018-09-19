@@ -9,9 +9,15 @@
     <ClInclude Include="..\core\wdl_list.h">
       <Filter>core</Filter>
     </ClInclude>
+    <ClInclude Include="..\core\wgl_alloc.h">
+      <Filter>core</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\core\wdl_list.h.c">
+    <ClCompile Include="..\core\wgl_alloc.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\wdl_list.cpp">
       <Filter>core</Filter>
     </ClCompile>
   </ItemGroup>
